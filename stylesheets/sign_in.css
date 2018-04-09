@@ -1,0 +1,190 @@
+body {
+	background-color: #BDFFFF;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+	color: #8625FB;
+    font-size: 5vh;
+    font-size: 5vw;
+    display: inline;
+    text-shadow: 5px 5px 10px #5E03CB;
+}
+
+header {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#ukulily_logo {
+ 	width: 7%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: -470px;
+	position: absolute;
+	z-index: 1;
+}
+
+#top {
+	background: #FEAFED;
+	background: -webkit-linear-gradient(left top, #F854D4, #FEE2F8);
+	background: -o-linear-gradient(bottom right, #F854D4, #FEE2F8);
+	background: -moz-linear-gradient(bottom right, #F854D4, #FEE2F8);
+	background: linear-gradient(to bottom right, #F854D4, #FEE2F8);
+	top: 0px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+	box-shadow: 10px 10px 30px #FC21CC;
+	width: 100%;
+}
+
+#nav_bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.5vh;
+	font-size: 1.5vw;
+}
+
+li a {
+	color: #8625FB;
+	font-weight: bold;
+	padding: 5px;
+}
+
+li a:hover {
+	background-color: #CCA6FD;
+	border-radius: 8px;
+}
+
+#sign_in {
+	text-decoration: none;
+	color: #8625FB;
+	font-size: 2vh;
+	font-size: 2vw;
+	text-align:center;
+}
+
+#mid_div {
+	background-color: #BDFFFF;
+	position: absolute;
+	margin: 20px;
+	top: 23vh;
+	left: 2vw;
+	border: solid 2px #00F9F9;
+	border-radius: 8px;
+	width: 94vw;
+	height: 50vh;
+	box-shadow: 10px 10px 30px #00F9F9;
+}
+
+table {
+	border: solid 3px #8625FB;
+	border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    font-weight: bold;
+    top: 35vh;
+    left: 510px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.3vh;
+    font-size: 1.3vw;
+    color: #5E03CB;
+    box-shadow: 10px 10px 30px #48029B;
+    text-align: center;
+}
+
+#invalid {
+	background-color: #EEDFFF;
+	position: absolute;
+	top: 69%;
+	left: 37.5%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.2vh;
+    font-size: 1.2vw;
+	width: 25%;
+	border: solid 3px #FC006A;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+	margin: auto;
+	color: #5E03CB;
+    text-align: center;
+    padding: 5px;
+}
+
+#invalid1 {
+	background-color: #EEDFFF;
+	position: absolute;
+	top: 57%;
+	left: 38%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.2vh;
+    font-size: 1.2vw;
+	width: 25%;
+	border: solid 3px #FC006A;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+	margin: auto;
+	color: #5E03CB;
+    text-align: center;
+    padding: 5px;
+}
+
+.text {
+	text-align: right;
+}
+
+input	{
+	height: 4.3vh;
+	width: 19vw;
+}
+
+.inputs {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1vh;
+    font-size: 1vw;
+}
+
+#submit {
+    color: #5E03CB;
+	border-radius: 5px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.1vh;
+	font-size: 1.1vw;
+	font-weight: bold;
+	background-color: #CCA6FD;
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+footer {
+	font-size: 1vh;
+	font-size: 1vw;
+	font-style: italic;
+	color: #8625FB;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: fixed;
+	text-align: right;
+	padding: 20px;
+	background: #FEAFED;
+	background: -webkit-linear-gradient(right bottom, #F854D4, #FEE2F8);
+	background: -o-linear-gradient(top left, #F854D4, #FEE2F8);
+	background: -moz-linear-gradient(top left, #F854D4, #FEE2F8);
+	background: linear-gradient(to top left, #F854D4, #FEE2F8);
+}
+
+footer a {
+	text-decoration: none;
+}

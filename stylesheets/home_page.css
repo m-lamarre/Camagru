@@ -1,0 +1,197 @@
+body {
+	background-color: #BDFFFF;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+	color: #8625FB;
+    font-size: 5vh;
+    font-size: 5vw;
+    display: inline;
+    text-shadow: 5px 5px 10px #5E03CB;
+}
+
+header {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#ukulily_logo {
+	width: 7%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: -470px;
+	position: absolute;
+	z-index: 1;
+}
+
+#top {
+	background: #FEAFED;
+	background: -webkit-linear-gradient(left top, #F854D4, #FEE2F8);
+	background: -o-linear-gradient(bottom right, #F854D4, #FEE2F8);
+	background: -moz-linear-gradient(bottom right, #F854D4, #FEE2F8);
+	background: linear-gradient(to bottom right, #F854D4, #FEE2F8);
+	top: 0px;
+	position: absolute;
+	left: 0px;
+	text-align: center;
+	box-shadow: 10px 10px 30px #FC21CC;
+	width: 100%;
+}
+
+#nav_bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.5vh;
+	font-size: 1.5vw;
+}
+
+li a {
+	color: #8625FB;
+	font-weight: bold;
+	padding: 5px;
+}
+
+li a:hover {
+	background-color: #CCA6FD;
+	border-radius: 8px;
+}
+
+.gallery {
+	text-decoration: none;
+	color: #8625FB;
+	font-size: 2vh;
+	font-size: 2vw;
+	text-align:center;
+}
+
+#mid_div {
+	background-color: #BDFFFF;
+	position: relative;
+	margin: 60px 10px 200px 10px;
+	top: 150px;
+	left: 1vw;
+	border: solid 2px #00F9F9;
+	border-radius: 8px;
+	width: 94vw;
+	height: 55vh;
+	box-shadow: 10px 10px 30px #00F9F9;
+}
+
+.home_imgs {
+	width: 400px;
+	height: auto;
+	margin-left: 130px;
+}
+
+footer {
+	font-size: 1vh;
+	font-size: 1vw;
+	font-style: italic;
+	color: #8625FB;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: fixed;
+	text-align: right;
+	padding: 20px;
+	background: #FEAFED;
+	background: -webkit-linear-gradient(right bottom, #F854D4, #FEE2F8);
+	background: -o-linear-gradient(top left, #F854D4, #FEE2F8);
+	background: -moz-linear-gradient(top left, #F854D4, #FEE2F8);
+	background: linear-gradient(to top left, #F854D4, #FEE2F8);
+}
+
+footer a {
+	text-decoration: none;
+}
+
+/* ----Slideshow---- */
+* {
+	box-sizing: border-box;
+}
+
+.slides {
+	display: none;
+}
+
+.slideshow {
+	max-width: 1000px;
+	position: relative;
+	margin-left: 25%;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: #FC21CC;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.next {
+	right: 300px;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(254,175,237,0.8);
+}
+
+.number {
+	color: #FC21CC;
+	font-size: 1vh;
+	font-size: 1vw;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.dot {
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #FEAFED;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+	background-color: #FC21CC;
+}
+
+.active {
+	background-color: #FC21CC;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
